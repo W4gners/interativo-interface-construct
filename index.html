@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Infográfico</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/maparea.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name='version' content='1.1'>
+    <style>
+        td,
+        img {
+            border: 0;
+        }
+    </style>
+</head>
+
+<body onload="changeSize()">
+    <section class="ctn-content">
+        <ul class="ctn-layer1">
+            <li>
+                <!-- pagina 01-->
+                <img src="images/01.png" alt="" class="map" id="01" />
+
+                <!--mapa de coordenadas-->
+                <maplista data-id="01">
+                    <maparea onclick="toslide(2)" data-shape="rect" data-fillstyle="rgba(255, 0, 71, 0.4)" data-coords="106,76,244,611" data-static="true"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                    <maparea onclick="toslide(3)" data-shape="rect" data-fillstyle="rgba(255, 0, 71, 0.3)" data-coords="354,77,44,23" data-static="true"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                    <maparea onclick="toslide(4)" data-shape="rect" data-fillstyle="rgba(255, 0, 71, 0.3)" data-coords="400,77,142,23" data-static="true"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                    <maparea onclick="toslide(5)" data-shape="rect" data-fillstyle="rgba(255, 0, 71, 0.3)" data-coords="682,78,62,22" data-static="true"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                    <maparea onclick="toslide(6)" data-shape="rect" data-fillstyle="rgba(255, 0, 71, 0.3)" data-coords="354,99,111,20" data-static="true"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                    <maparea onclick="toslide(7)" data-shape="rect" data-fillstyle="rgba(255, 0, 71, 0.3)" data-coords="430,186,530,502" data-static="true"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                    <maparea onclick="toslide(8)" data-shape="rect" data-fillstyle="rgba(255, 0, 71, 0.3)" data-coords="965,76,228,300" data-static="true"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                    <maparea onclick="toslide(9)" data-shape="rect" data-fillstyle="rgba(255, 0, 71, 0.3)" data-coords="965,380,228,307" data-static="true"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                </maplista>
+
+                <!--FIM mapa de coordenadas-->
+            </li>
+
+            <li>
+                <!-- pagina 02-->
+                <img src="images/02.png" alt="" class="map" id="02" />
+
+                <!--mapa de coordenadas-->
+                <maplista data-id="02">
+                    <maparea onclick="toslide(1)" data-shape="rect" data-fillstyle="rgba(0, 0, 0, 0)" data-coords="778,260,40,40" data-static="false"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                </maplista>
+
+                <!--FIM mapa de coordenadas-->
+            </li>
+
+            <li>
+                <!-- pagina 03 -->
+                <img src="images/03.png" alt="" class="map" id="03" />
+
+                <!--mapa de coordenadas-->
+                <maplista data-id="03">
+                    <maparea onclick="toslide(1)" data-shape="rect" data-fillstyle="rgba(0, 0, 0, 0)" data-coords="486,170,40,40" data-static="false"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                </maplista>
+
+                <!--FIM mapa de coordenadas-->
+            </li>
+
+            <li>
+                <!-- pagina 04 -->
+                <img src="images/04.png" alt="" class="map" id="04" />
+
+                <!--mapa de coordenadas-->
+                <maplista data-id="04">
+                    <maparea onclick="toslide(1)" data-shape="rect" data-fillstyle="rgba(0, 0, 0, 0)" data-coords="562,168,40,40" data-static="false"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                </maplista>
+
+                <!--FIM mapa de coordenadas-->
+            </li>
+
+            <li>
+                <!-- pagina 05 -->
+                <img src="images/05.png" alt="" class="map" id="05" />
+
+                <!--mapa de coordenadas-->
+                <maplista data-id="05">
+                    <maparea onclick="toslide(1)" data-shape="rect" data-fillstyle="rgba(0, 0, 0, 0)" data-coords="802,166,40,40" data-static="false"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                </maplista>
+
+                <!--FIM mapa de coordenadas-->
+            </li>
+
+            <li>
+                <!-- pagina 06 -->
+                <img src="images/06.png" alt="" class="map" id="06" />
+
+                <!--mapa de coordenadas-->
+                <maplista data-id="06">
+                    <maparea onclick="toslide(1)" data-shape="rect" data-fillstyle="rgba(0, 0, 0, 0)" data-coords="506,186,40,40" data-static="false"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                </maplista>
+
+                <!--FIM mapa de coordenadas-->
+            </li>
+
+            <li>
+                <!-- pagina 07 -->
+                <img src="images/07.png" alt="" class="map" id="07" />
+
+                <!--mapa de coordenadas-->
+                <maplista data-id="07">
+                    <maparea onclick="toslide(1)" data-shape="rect" data-fillstyle="rgba(0, 0, 0, 0)" data-coords="336,318,40,40" data-static="false"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                </maplista>
+
+                <!--FIM mapa de coordenadas-->
+            </li>
+
+            <li>
+                <!-- pagina 08 -->
+                <img src="images/08.png" alt="" class="map" id="08" />
+
+                <!--mapa de coordenadas-->
+                <maplista data-id="08">
+                    <maparea onclick="toslide(1)" data-shape="rect" data-fillstyle="rgba(0, 0, 0, 0)" data-coords="861,135,40,40" data-static="false"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                </maplista>
+
+                <!--FIM mapa de coordenadas-->
+            </li>
+
+            <li>
+                <!-- pagina 09 -->
+                <img src="images/09.png" alt="" class="map" id="09" />
+
+                <!--mapa de coordenadas-->
+                <maplista data-id="09">
+                    <maparea onclick="toslide(1)" data-shape="rect" data-fillstyle="rgba(0, 0, 0, 0)" data-coords="861,456,40,40" data-static="false"></maparea>
+                    <!--data-coords: Xc,Yc,Raio-->
+                </maplista>
+
+                <!--FIM mapa de coordenadas-->
+            </li>
+
+        </ul>
+    </section>
+</body>
+
+</html>
